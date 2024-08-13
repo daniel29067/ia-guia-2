@@ -1,0 +1,41 @@
+#aspiradora{
+    max-width: 20%;
+    max-height: 20%;
+    left: 650; 
+    top: 100;
+    position:absolute; 
+}
+
+
+
+#trashA1,#trashA2,#trashA3,#trashA4,#trashB1,#trashB2,#trashB3,#trashB4{
+    max-width: 50%;
+    max-height: 50%;
+    visibility: hidden;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#sectorA, #sectorB{
+    position: relative;
+    border: 8px solid white;
+    border-radius: 40px;
+    height: 400px;
+    width: 400px;
+}
+
+#SectorAfila1,#SectorAfila2,#SectorBfila1,#SectorBfila2{
+    height: 190px;
+    width: 390px;
+}
+
+#SectorA1,#SectorA2,#SectorA3,#SectorA4,#SectorB1,#SectorB2,#SectorB3,#SectorB4{
+    height: 190px;
+    width: 390px;
+}
