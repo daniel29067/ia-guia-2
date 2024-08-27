@@ -1,9 +1,10 @@
 #aspiradora{
     max-width: 20%;
     max-height: 20%;
-    left: 650; 
-    top: 100;
-    position:absolute; 
+    position: absolute;
+        left: 50px; 
+        top: 50%;
+        transform: translateY(0%);
 }
 
 
@@ -22,6 +23,19 @@ body{
     place-items: center;
 }
 
+#chargingStation {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px; /* Redondear bordes */
+    background-color: #ccc;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Añadir sombra */
+}
+
+
 #sectorA, #sectorB{
     position: relative;
     border: 8px solid white;
@@ -38,4 +52,24 @@ body{
 #SectorA1,#SectorA2,#SectorA3,#SectorA4,#SectorB1,#SectorB2,#SectorB3,#SectorB4{
     height: 190px;
     width: 390px;
+}
+
+.title {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+}
+#chargingStationTitle {
+    top: -75px;
+    left: 05px;
+}
+#sectorATitle {
+    top: -50px;
+    left: 20px;
+}
+#sectorBTitle {
+    top: -50px;
+    right: 20px;
 }
